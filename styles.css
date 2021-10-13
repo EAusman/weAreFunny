@@ -78,9 +78,27 @@ input[type=checkbox] {
 .pageFlex{
 	flex-direction:column;
 }
-
+label {
+    font-size: 7vw;
+}
+input{
+	font-size: 5vw;
+}
 .pageFlex > div {
     height: auto;
     width:auto;
+}
+.header{
+	font-size:12vw
+}
+.pageFlex{
+	font-size:10vw;
+
+}
+p{
+	font-size:10vw;
+}
+.footer > span{
+	font-size:5vw;
 }
 }
