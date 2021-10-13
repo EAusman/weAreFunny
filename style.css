@@ -1,19 +1,34 @@
 .page {
-display: flex;
-flex-direction:row;
+	display: flex;
+	flex-direction:row;
+	background:#E0C1B3;
 }
 
 .page > div {
 	display: flex;
 	flex-direction:column;
 	justify-content:center;
-	background: yellow;
-	width:50vw;
 	height:100vh;
+}
+
+.optionsContainer {
+	width:33vw;
+	background:#D89A9E;
+}
+.jokeContainer {
+	width:66vw;
+}
+.formDiv {
+	display:flex;
+	justify-content:center;
 }
 
 #options {
 	display:flex;
 	flex-direction:column;
-	align-items:center;
+	align-items:right;
+}
+
+p {
+	text-align:center;
 }
