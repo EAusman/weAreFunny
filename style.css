@@ -17,10 +17,17 @@
 }
 .jokeContainer {
 	width:66vw;
+	display: flex;
 }
 .formDiv {
 	display:flex;
 	justify-content:center;
+}
+
+.jokeDiv {
+	display: flex;
+	flex-direction:column;
+	justify-content:flex-start;
 }
 
 #options {
@@ -31,4 +38,12 @@
 
 p {
 	text-align:center;
+	font-size:5vw;
+}
+
+label {
+	font-size:3vw;
+}
+input {
+	font-size:1.2vw;
 }
