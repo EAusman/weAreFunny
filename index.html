@@ -2,49 +2,53 @@
 <html>
 	<head>
 		<title>Jokes</title>
-		 <link rel="stylesheet" href="style.css">
+		<link rel="stylesheet" href="style.css">
 	</head>
 	<body>
 		<div class="page">
-			<div class="optionsContainer">
-				<div class="formDiv">
-				<form id="options" onsubmit="getAJoke()">
-					<div>
-					<input type="checkbox" id="programming"></input>
-					<label>Programming</label>
+			<h1 class="header">Joke Generator</h1>
+			<div class="pageFlex">
+				<div class="optionsContainer">
+					<div class="formDiv">
+						<form id="options" onsubmit="getAJoke()">
+							<div>
+								<input type="checkbox" id="programming"></input>
+								<label>Programming</label>
+							</div>
+							<div>
+								<input type="checkbox" id="misc"></input>
+								<label>Misc</label>
+							</div>
+							<div>
+								<input type="checkbox" id="dark"></input>
+								<label>Dark</label>
+							</div>
+							<div>
+								<input type="checkbox" id="pun"></input>
+								<label>Pun</label>
+							</div>
+							<div>
+								<input type="checkbox" id="spooky"></input>
+								<label>Spooky</label>
+							</div>
+							<div>
+								<input type="checkbox" id="christmas"></input>
+								<label>Christmas</label>
+							</div>
+							<div>
+								<input type="submit" value="Get my joke!"></input>
+							</div>
+						</form>
 					</div>
-					<div>
-					<input type="checkbox" id="misc"></input>
-					<label>Misc</label>
+				</div>
+				<div class="jokeContainer">
+					<div class="jokeDiv">
+						<p id="joke">This is a joke</p>
+						<p id="answer">And the answer!</p>
 					</div>
-					<div>
-					<input type="checkbox" id="dark"></input>
-					<label>Dark</label>
-					</div>
-					<div>
-					<input type="checkbox" id="pun"></input>
-					<label>Pun</label>
-					</div>
-					<div>
-					<input type="checkbox" id="spooky"></input>
-					<label>Spooky</label>
-					</div>
-					<div>
-					<input type="checkbox" id="christmas"></input>
-					<label>Christmas</label>
-					</div>
-					<div>
-					<input type="submit" value="Get my joke!"></input>
-					</div>
-				</form>
 				</div>
 			</div>
-			<div class="jokeContainer">
-				<div class="jokeDiv">
-				<p id="joke">Welcome to The Joke Generator!</p>
-				<p id="answer">Select boxes for possible output categories (default is all) and see what joke you get!</p>
-				</div>
-			</div>
+
 		</div>
 		<div class="footer">
 			<span>Emma Ausman | Gabe Maxfield</span>
