@@ -1,5 +1,6 @@
+async function getAJoke(){
 const url = "https://v2.jokeapi.dev/joke/Any?blacklistFlags=nsfw,religious,political,racist,sexist,explicit";
-fetch(url)
+await fetch(url)
 .then(function(response) {
   return response.json();
 }).then(function(json){
@@ -17,3 +18,4 @@ fetch(url)
     document.getElementById("joke").innerHTML = joke;
   }
 });
+}
