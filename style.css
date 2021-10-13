@@ -1,0 +1,19 @@
+.page {
+display: flex;
+flex-direction:row;
+}
+
+.page > div {
+	display: flex;
+	flex-direction:column;
+	justify-content:center;
+	background: yellow;
+	width:50vw;
+	height:100vh;
+}
+
+#options {
+	display:flex;
+	flex-direction:column;
+	align-items:center;
+}
