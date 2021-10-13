@@ -57,4 +57,9 @@ input[type=checkbox] {
 	flex-direction: column;
 	align-items:center;
 	background: #C37D92;
+	padding-top:1vw;
+	margin-bottom:0.5vh;
+}
+.footer > span {
+	font-size:1.5vw;
 }
