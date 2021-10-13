@@ -1,5 +1,5 @@
 .page {
-	background:#E0C1B3;
+	background:#d8e2dc;
 }
 .pageFlex {
 	display: flex;
@@ -16,7 +16,7 @@
 
 .optionsContainer {
 	width:33vw;
-	background:#D89A9E;
+	background:#ffcad4;
 }
 .jokeContainer {
 	width:66vw;
@@ -58,7 +58,7 @@ input[type=checkbox] {
 	display: flex;
 	flex-direction: column;
 	align-items:center;
-	background: #C37D92;
+	background: #f4acb7;
 	padding-top:1vw;
 	margin-bottom:0.5vh;
 }
@@ -71,6 +71,6 @@ input[type=checkbox] {
 	margin:0;
 	text-align:center;
 	font-size:3.5vw;
-	background:#548687;
+	background:#9d8189;
 	padding:15pt;
 }
